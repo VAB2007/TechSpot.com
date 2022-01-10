@@ -3,18 +3,24 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<!-- <link rel="stylesheet" href="style.css"> -->
+	<title>Contact Form</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<form action="backend.php" method="post">
-		<input type="text" name="name" placeholder="me" required>
+	<div class="contact-title">
+		<h1>Hello</h1>
+		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, voluptatum?</p>
+	</div> 
 
-		<input type="email" name="email" placeholder="me" required>
-
-		<input type="text" name="subject" placeholder="me" required>
-
-		<button type="submit" class="btn">Submit</button>
-	</form>
+	<div class="contact-form">
+		<form action="backend.php" method="post" id="contact-form">
+			<input type="text" name="name" class="form-control" placeholder="Your Name" required>
+			<br>
+			<input type="email" name="name" class="form-control" placeholder="Your Email" required>
+			<br>
+			<textarea name="message" class="form-control" placeholder="message" rows="4"></textarea>
+			<input type="submit" class="form-control submit" value="SEND">
+		</form>
+	</div>
 </body>
 </html>
