@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+body{
+	background: linear-gradient(rgba(0,100,210,0.6),rgba(255,255,255,0.6));
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 100vw;
+}
+.contact-title{
+	margin-top: 100px;
+	color: #fff;
+	text-transform: uppercase;
+	transition: all 4s ease-in-out;
+}
+.contact-title h1{
+	font-size: 32px;
+	line-height: 10px;
+	margin: 20px auto;
+}
+.contact-title p{
+	font-size: 16px;
+
+}
+.contact-form{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.form-control{
+	margin: 20px;
+	padding: 10px;
+	font-size: 20px;
+	background: none;
+	border: none;
+	border-bottom: 1px solid white;
+}
